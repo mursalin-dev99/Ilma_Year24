@@ -1,0 +1,21 @@
+
+
+
+
+
+    font-family: 'Bebas Neue', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Raleway', sans-serif;
+
+    font-family: 'Work Sans', sans-serif;
+ 
+
+/*============================================
+         css part start here
+==============================================*/
+
+/*============================================
+         css part ends here
+==============================================*/

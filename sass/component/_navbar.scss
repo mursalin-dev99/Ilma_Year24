@@ -1,0 +1,32 @@
+/* ======================================================
+                    navbar css start here
+=========================================================*/
+#navbar{
+    width: 100vw;
+    height: 70px;
+    background: #f3cef2;
+    .nav_body{
+        padding: 5px 0;
+        // padding-bottom: 10px;
+        .nav_text{
+            color: #f903e9;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-family: 'Raleway', sans-serif;
+        }
+        ul{
+            li{
+                padding-left: 15px;
+                a{
+                    color: #b854b2;
+                    font-size: 18px;
+                    text-transform: capitalize;
+                    font-family: 'Raleway', sans-serif;
+                }
+            }
+        }
+    }
+}
+/* ======================================================
+                    navbar css ends here
+=========================================================*/

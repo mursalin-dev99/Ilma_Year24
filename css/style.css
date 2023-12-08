@@ -1,0 +1,76 @@
+/*============================================
+        common css part start here
+==============================================*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.clr {
+  clear: both;
+}
+
+.container {
+  max-width: 1220px;
+}
+
+/*============================================
+        common css part ends here
+==============================================*/
+/*============================================
+        all typography css part start here
+==============================================*/
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+/*============================================
+        all typography css part ends here
+==============================================*/
+/* ======================================================
+                    navbar css start here
+=========================================================*/
+#navbar {
+  width: 100vw;
+  height: 70px;
+  background: #f3cef2;
+}
+#navbar .nav_body {
+  padding: 5px 0;
+}
+#navbar .nav_body .nav_text {
+  color: #f903e9;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+}
+#navbar .nav_body ul li {
+  padding-left: 15px;
+}
+#navbar .nav_body ul li a {
+  color: #b854b2;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-family: "Raleway", sans-serif;
+}
+
+/* ======================================================
+                    navbar css ends here
+=========================================================*//*# sourceMappingURL=style.css.map */

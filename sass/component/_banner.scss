@@ -1,0 +1,38 @@
+/*============================================
+        banner css part start here
+==============================================*/
+#banner{
+    width: 100vw;
+//     height: 500px;
+    background: rgb(229, 176, 176);
+    .banner_body{
+        .banner_main{
+              .ban_overlay{
+                background: #0000003c;
+                .ban_text{
+                        padding: 200px 0;
+                        text-align: center ;
+                        p{
+                                color: #343434;
+                                font-size: 40px;
+                                font-weight: 700;
+                                font-family: 'Raleway', sans-serif;
+                                text-transform: capitalize;
+                                
+                        }
+                        span{
+                                color: #343434;
+                                font-size: 40px;
+                                font-weight: 700;
+                                font-family: 'Raleway', sans-serif;
+                                text-transform: capitalize;
+                                
+                        }
+                }
+              }  
+        }
+    }
+}
+/*============================================
+        banner css part ends here
+==============================================*/

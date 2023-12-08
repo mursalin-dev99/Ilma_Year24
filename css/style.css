@@ -73,4 +73,36 @@ img {
 
 /* ======================================================
                     navbar css ends here
-=========================================================*//*# sourceMappingURL=style.css.map */
+=========================================================*/
+/*============================================
+        banner css part start here
+==============================================*/
+#banner {
+  width: 100vw;
+  background: rgb(229, 176, 176);
+}
+#banner .banner_body .banner_main .ban_overlay {
+  background: rgba(0, 0, 0, 0.2352941176);
+}
+#banner .banner_body .banner_main .ban_overlay .ban_text {
+  padding: 200px 0;
+  text-align: center;
+}
+#banner .banner_body .banner_main .ban_overlay .ban_text p {
+  color: #343434;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  text-transform: capitalize;
+}
+#banner .banner_body .banner_main .ban_overlay .ban_text span {
+  color: #343434;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  text-transform: capitalize;
+}
+
+/*============================================
+        banner css part ends here
+==============================================*//*# sourceMappingURL=style.css.map */

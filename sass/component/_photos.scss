@@ -1,0 +1,61 @@
+/*============================================
+        photos css part start here
+==============================================*/
+#photos{
+    width: 100vw;
+    margin: 50px 0;
+    .photos_body{
+        .photos_main{
+            .photos_head{
+                text-align: center;
+                h3{
+                    // text-align: left;
+                    color: #343434;
+                    font-weight: 600;
+                    font-family: 'Raleway', sans-serif;
+                    text-transform: uppercase;
+                    position: relative;
+                    &::after{
+                        position: absolute;
+                    }
+                }
+            }
+            .photos_card{
+                display: flex;
+                margin-top: 50px;
+                .col-lg-4{
+                    padding-right: 10px;
+                    padding-top: 10px;
+                    .card_body{
+                        width: 100%;
+                        height: 300px;
+                        background-image: url(../images/Wish.jpg);
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        .card_overlay{
+                            width: 100%;
+                            height: 100%;
+                            background: #f3cef24e;
+                        }
+                        .card_text{
+                            .wish_text{
+                                padding-top: 10px;
+                                text-align: center;
+                                // background: #000;
+                                button{
+                                    width: 100%;
+                                    background-color: #f3cef2;
+                                    color: #f903e9;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*============================================
+        photos css part ends here
+==============================================*/

@@ -160,4 +160,58 @@ img {
 
 /*============================================
         wish css part ends here
+==============================================*/
+/*============================================
+        photos css part start here
+==============================================*/
+#photos {
+  width: 100vw;
+  margin: 50px 0;
+}
+#photos .photos_body .photos_main .photos_head {
+  text-align: center;
+}
+#photos .photos_body .photos_main .photos_head h3 {
+  color: #343434;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+#photos .photos_body .photos_main .photos_head h3::after {
+  position: absolute;
+}
+#photos .photos_body .photos_main .photos_card {
+  display: flex;
+  margin-top: 50px;
+}
+#photos .photos_body .photos_main .photos_card .col-lg-4 {
+  padding-right: 10px;
+  padding-top: 10px;
+}
+#photos .photos_body .photos_main .photos_card .col-lg-4 .card_body {
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/Wish.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#photos .photos_body .photos_main .photos_card .col-lg-4 .card_body .card_overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(243, 206, 242, 0.3058823529);
+}
+#photos .photos_body .photos_main .photos_card .col-lg-4 .card_body .card_text .wish_text {
+  padding-top: 10px;
+  text-align: center;
+}
+#photos .photos_body .photos_main .photos_card .col-lg-4 .card_body .card_text .wish_text button {
+  width: 100%;
+  background-color: #f3cef2;
+  color: #f903e9;
+}
+
+/*============================================
+        photos css part ends here
 ==============================================*//*# sourceMappingURL=style.css.map */

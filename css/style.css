@@ -61,6 +61,9 @@ img {
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
 }
+#navbar .nav_body ul {
+  background: #f3cef2;
+}
 #navbar .nav_body ul li {
   padding-left: 15px;
 }
@@ -120,8 +123,24 @@ img {
   width: 100vw;
   margin: 50px 0;
 }
-#wish .wish_body .wish_main {
-  display: flex;
+#wish .wish_body .wish_head {
+  text-align: center;
+}
+#wish .wish_body .wish_head h3 {
+  color: #343434;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+#wish .wish_body .wish_head h3::after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 130px;
+  background: #000;
+  top: 35px;
+  left: 41%;
 }
 #wish .wish_body .wish_main .col-lg-6 .wish_img {
   padding-right: 10px;
@@ -133,8 +152,7 @@ img {
 }
 #wish .wish_body .wish_main .col-lg-6 .wish_text {
   text-align: center;
-  padding-top: 100px;
-  padding-left: 10px;
+  padding-top: 25px;
 }
 #wish .wish_body .wish_main .col-lg-6 .wish_text h3 {
   color: #343434;
@@ -180,14 +198,16 @@ img {
 }
 #photos .photos_body .photos_main .photos_head h3::after {
   position: absolute;
-}
-#photos .photos_body .photos_main .photos_card {
-  display: flex;
-  margin-top: 50px;
+  content: "";
+  height: 1px;
+  width: 130px;
+  background: #000;
+  top: 35px;
+  left: 41%;
 }
 #photos .photos_body .photos_main .photos_card .col-lg-4 {
-  padding-right: 10px;
-  padding-top: 10px;
+  padding: 0 10px;
+  margin-top: 20px;
 }
 #photos .photos_body .photos_main .photos_card .col-lg-4 .card_body {
   width: 100%;
@@ -202,14 +222,17 @@ img {
   height: 100%;
   background: rgba(243, 206, 242, 0.3058823529);
 }
-#photos .photos_body .photos_main .photos_card .col-lg-4 .card_body .card_text .wish_text {
-  padding-top: 10px;
+#photos .photos_body .photos_main .photos_card .col-lg-4 .card_text .wish_text {
+  padding: 10px 0 10px 0;
   text-align: center;
+  background: #000;
 }
-#photos .photos_body .photos_main .photos_card .col-lg-4 .card_body .card_text .wish_text button {
-  width: 100%;
-  background-color: #f3cef2;
+#photos .photos_body .photos_main .photos_card .col-lg-4 .card_text .wish_text p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
   color: #f903e9;
+  margin-bottom: 0;
 }
 
 /*============================================

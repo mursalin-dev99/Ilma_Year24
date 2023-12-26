@@ -5,8 +5,28 @@
     width: 100vw;
     margin: 50px 0;
     .wish_body{
+        .wish_head{
+            text-align: center;
+            h3{
+                // text-align: left;
+                color: #343434;
+                font-weight: 600;
+                font-family: 'Raleway', sans-serif;
+                text-transform: uppercase;
+                position: relative;
+                &::after{
+                    position: absolute;
+                    content: '';
+                    height: 1px;
+                    width: 130px;
+                    background: #000;
+                    top: 35px;
+                    left: 41%;
+                }
+            }
+        }
         .wish_main{
-            display: flex;
+            // display: flex;
             .col-lg-6{
                 .wish_img{
                     padding-right: 10px;
@@ -18,8 +38,7 @@
                 }
                 .wish_text{
                     text-align: center;
-                    padding-top: 100px;
-                    padding-left: 10px;
+                    padding-top: 25px;
                     h3{
                         // text-align: left;
                         color: #343434;

@@ -237,4 +237,36 @@ img {
 
 /*============================================
         photos css part ends here
+==============================================*/
+/*============================================
+        phase1 css part start here
+==============================================*/
+#phase1 {
+  width: 100vw;
+  margin: 50px 0;
+  background: #f3cef2;
+}
+#phase1 .phase_head {
+  text-align: center;
+}
+#phase1 .phase_head h3 {
+  background: #f903e9;
+  color: #343434;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+#phase1 .phase_head h3::after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 130px;
+  background: #000;
+  top: 35px;
+  left: 41%;
+}
+
+/*============================================
+        phase1 css part ends here
 ==============================================*//*# sourceMappingURL=style.css.map */

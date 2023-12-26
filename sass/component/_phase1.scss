@@ -1,0 +1,32 @@
+/*============================================
+        phase1 css part start here
+==============================================*/
+#phase1{
+    width: 100vw;
+    margin: 50px 0;
+    background: #f3cef2;
+    .phase_head{
+        text-align: center;
+        h3{
+            background: #f903e9;
+            // text-align: left;
+            color: #343434;
+            font-weight: 600;
+            font-family: 'Raleway', sans-serif;
+            text-transform: uppercase;
+            position: relative;
+            &::after{
+                position: absolute;
+                content: '';
+                height: 1px;
+                width: 130px;
+                background: #000;
+                top: 35px;
+                left: 41%;
+            }
+        }
+    }
+}
+/*============================================
+        phase1 css part ends here
+==============================================*/

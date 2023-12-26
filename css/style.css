@@ -222,12 +222,12 @@ img {
   height: 100%;
   background: rgba(243, 206, 242, 0.3058823529);
 }
-#photos .photos_body .photos_main .photos_card .col-lg-4 .card_text .wish_text {
+#photos .photos_body .photos_main .photos_card .col-lg-4 .card_text .photos_text {
   padding: 10px 0 10px 0;
   text-align: center;
   background: #000;
 }
-#photos .photos_body .photos_main .photos_card .col-lg-4 .card_text .wish_text p {
+#photos .photos_body .photos_main .photos_card .col-lg-4 .card_text .photos_text p {
   font-size: 15px;
   font-weight: 400;
   font-family: "Raleway", sans-serif;
@@ -269,4 +269,171 @@ img {
 
 /*============================================
         phase1 css part ends here
+==============================================*/
+/*============================================
+        note css part start here
+==============================================*/
+#note {
+  width: 100vw;
+  margin: 50px 0;
+}
+#note .note_body .note_main .note_head {
+  text-align: center;
+}
+#note .note_body .note_main .note_head h3 {
+  color: #343434;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+#note .note_body .note_main .note_head h3::after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 130px;
+  background: #000;
+  top: 35px;
+  left: 41%;
+}
+#note .note_body .note_main .note_card .col-lg-4 {
+  padding: 0 10px;
+  margin-top: 20px;
+}
+#note .note_body .note_main .note_card .col-lg-4 .note1 {
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/note1.png);
+  background-position: center;
+}
+#note .note_body .note_main .note_card .col-lg-4 .note1 .card_overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(243, 206, 242, 0.3058823529);
+}
+#note .note_body .note_main .note_card .col-lg-4 .note2 {
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/note2.png);
+  background-position: center;
+}
+#note .note_body .note_main .note_card .col-lg-4 .note2 .card_overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(243, 206, 242, 0.3058823529);
+}
+#note .note_body .note_main .note_card .col-lg-4 .note3 {
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/note3.png);
+  background-position: center;
+}
+#note .note_body .note_main .note_card .col-lg-4 .note3 .card_overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(243, 206, 242, 0.3058823529);
+}
+#note .note_body .note_main .note_card .col-lg-4 .note4 {
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/note4.png);
+  background-position: center;
+}
+#note .note_body .note_main .note_card .col-lg-4 .note4 .card_overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(243, 206, 242, 0.3058823529);
+}
+#note .note_body .note_main .note_card .col-lg-4 .note5 {
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/note5.png);
+  background-position: center;
+}
+#note .note_body .note_main .note_card .col-lg-4 .note5 .card_overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(243, 206, 242, 0.3058823529);
+}
+#note .note_body .note_main .note_card .col-lg-4 .note6 {
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/note6.png);
+  background-position: center;
+}
+#note .note_body .note_main .note_card .col-lg-4 .note6 .card_overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(243, 206, 242, 0.3058823529);
+}
+#note .note_body .note_main .note_card .col-lg-4 .note7 {
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/note7.png);
+  background-position: center;
+}
+#note .note_body .note_main .note_card .col-lg-4 .note7 .card_overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(243, 206, 242, 0.3058823529);
+}
+#note .note_body .note_main .note_card .col-lg-4 .note8 {
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/note8.png);
+  background-position: center;
+}
+#note .note_body .note_main .note_card .col-lg-4 .note8 .card_overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(243, 206, 242, 0.3058823529);
+}
+#note .note_body .note_main .note_card .col-lg-4 .note9 {
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/note9.png);
+  background-position: center;
+}
+#note .note_body .note_main .note_card .col-lg-4 .note9 .card_overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(243, 206, 242, 0.3058823529);
+}
+#note .note_body .note_main .note_card .col-lg-4 .note10 {
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/note10.png);
+  background-position: center;
+}
+#note .note_body .note_main .note_card .col-lg-4 .note10 .card_overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(243, 206, 242, 0.3058823529);
+}
+#note .note_body .note_main .note_card .col-lg-4 .note11 {
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/note11.png);
+  background-position: center;
+}
+#note .note_body .note_main .note_card .col-lg-4 .note11 .card_overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(243, 206, 242, 0.3058823529);
+}
+#note .note_body .note_main .note_card .col-lg-4 .card_text .note_text {
+  padding: 10px 0 10px 0;
+  text-align: center;
+  background: #000;
+}
+#note .note_body .note_main .note_card .col-lg-4 .card_text .note_text p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  color: #000;
+  margin-bottom: 0;
+}
+
+/*============================================
+        note css part ends here
 ==============================================*//*# sourceMappingURL=style.css.map */

@@ -1,0 +1,217 @@
+/*============================================
+        note css part start here
+==============================================*/
+#note{
+    width: 100vw;
+    margin: 50px 0;
+    .note_body{
+        .note_main{
+            .note_head{
+                text-align: center;
+                h3{
+                    // text-align: left;
+                    color: #343434;
+                    font-weight: 600;
+                    font-family: 'Raleway', sans-serif;
+                    text-transform: uppercase;
+                    position: relative;
+                    &::after{
+                        position: absolute;
+                        content: '';
+                        height: 1px;
+                        width: 130px;
+                        background: #000;
+                        top: 35px;
+                        left: 41%;
+                    }
+                }
+            }
+            .note_card{
+                // display: flex;
+                .col-lg-4{
+                    padding: 0 10px;
+                    // padding-top: 10px;
+                    margin-top: 20px;
+                    // .card_body{
+                    //     width: 100%;
+                    //     height: 300px;
+                    //     background-image: url(../images/Wish.jpg);
+                    //     background-position: center;
+                    //     background-size: cover;
+                    //     background-repeat: no-repeat;
+                    //     .card_overlay{
+                    //         width: 100%;
+                    //         height: 100%;
+                    //         background: #f3cef24e;
+                    //     }
+                    // }
+                    .note1{
+                        width: 100%;
+                        height: 300px;
+                        background-image: url(../images/note1.png);
+                        background-position: center;
+                        // background-size: cover;
+                        // background-repeat: no-repeat;
+                        .card_overlay{
+                            width: 100%;
+                            height: 100%;
+                            background: #f3cef24e;
+                        }
+                    }
+                    .note2{
+                        width: 100%;
+                        height: 300px;
+                        background-image: url(../images/note2.png);
+                        background-position: center;
+                        // background-size: cover;
+                        // background-repeat: no-repeat;
+                        .card_overlay{
+                            width: 100%;
+                            height: 100%;
+                            background: #f3cef24e;
+                        }
+                    }
+                    .note3{
+                        width: 100%;
+                        height: 300px;
+                        background-image: url(../images/note3.png);
+                        background-position: center;
+                        // background-size: cover;
+                        // background-repeat: no-repeat;
+                        .card_overlay{
+                            width: 100%;
+                            height: 100%;
+                            background: #f3cef24e;
+                        }
+                    }
+                    .note4{
+                        width: 100%;
+                        height: 300px;
+                        background-image: url(../images/note4.png);
+                        background-position: center;
+                        // background-size: cover;
+                        // background-repeat: no-repeat;
+                        .card_overlay{
+                            width: 100%;
+                            height: 100%;
+                            background: #f3cef24e;
+                        }
+                    }
+                    .note5{
+                        width: 100%;
+                        height: 300px;
+                        background-image: url(../images/note5.png);
+                        background-position: center;
+                        // background-size: cover;
+                        // background-repeat: no-repeat;
+                        .card_overlay{
+                            width: 100%;
+                            height: 100%;
+                            background: #f3cef24e;
+                        }
+                    }
+                    .note6{
+                        width: 100%;
+                        height: 300px;
+                        background-image: url(../images/note6.png);
+                        background-position: center;
+                        // background-size: cover;
+                        // background-repeat: no-repeat;
+                        .card_overlay{
+                            width: 100%;
+                            height: 100%;
+                            background: #f3cef24e;
+                        }
+                    }
+                    .note7{
+                        width: 100%;
+                        height: 300px;
+                        background-image: url(../images/note7.png);
+                        background-position: center;
+                        // background-size: cover;
+                        // background-repeat: no-repeat;
+                        .card_overlay{
+                            width: 100%;
+                            height: 100%;
+                            background: #f3cef24e;
+                        }
+                    }
+                    .note8{
+                        width: 100%;
+                        height: 300px;
+                        background-image: url(../images/note8.png);
+                        background-position: center;
+                        // background-size: cover;
+                        // background-repeat: no-repeat;
+                        .card_overlay{
+                            width: 100%;
+                            height: 100%;
+                            background: #f3cef24e;
+                        }
+                    }
+                    .note9{
+                        width: 100%;
+                        height: 300px;
+                        background-image: url(../images/note9.png);
+                        background-position: center;
+                        // background-size: cover;
+                        // background-repeat: no-repeat;
+                        .card_overlay{
+                            width: 100%;
+                            height: 100%;
+                            background: #f3cef24e;
+                        }
+                    }
+                    .note10{
+                        width: 100%;
+                        height: 300px;
+                        background-image: url(../images/note10.png);
+                        background-position: center;
+                        // background-size: cover;
+                        // background-repeat: no-repeat;
+                        .card_overlay{
+                            width: 100%;
+                            height: 100%;
+                            background: #f3cef24e;
+                        }
+                    }
+                    .note11{
+                        width: 100%;
+                        height: 300px;
+                        background-image: url(../images/note11.png);
+                        background-position: center;
+                        // background-size: cover;
+                        // background-repeat: no-repeat;
+                        .card_overlay{
+                            width: 100%;
+                            height: 100%;
+                            background: #f3cef24e;
+                        }
+                    }
+                    .card_text{
+                        .note_text{
+                            padding: 10px 0 10px 0;
+                            text-align: center;
+                            background: #000;
+                            p{
+                                font-size: 15px;
+                                font-weight: 400;
+                                font-family: 'Raleway', sans-serif;
+                                color: #000;
+                                margin-bottom: 0;
+                            }
+                            // button{
+                            //     width: 100%;
+                            //     background-color: #f3cef2;
+                            //     color: #f903e9;
+                            // }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*============================================
+        note css part ends here
+==============================================*/

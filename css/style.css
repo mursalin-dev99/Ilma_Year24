@@ -479,4 +479,72 @@ img {
 
 /*============================================
         video css part ends here
+==============================================*/
+/*============================================
+        phase 2 css part start here
+==============================================*/
+#phase2 {
+  width: 100vw;
+  margin-top: 200px;
+  margin-bottom: 50px;
+  background: #f3cef2;
+}
+#phase2 .phase_body .phase_main {
+  width: 100%;
+}
+#phase2 .phase_body .phase_main .phase_head {
+  text-align: center;
+  background: red;
+  height: 40px;
+}
+#phase2 .phase_body .phase_main .phase_head h3 {
+  color: #343434;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+#phase2 .phase_body .phase_main .phase_head h3::after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 130px;
+  background: #000;
+  top: 35px;
+  left: 41%;
+}
+#phase2 .phase_body .phase_main .topic {
+  text-align: center;
+}
+#phase2 .phase_body .phase_main .topic h2 {
+  margin-top: 35px;
+  color: #f903e9;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+#phase2 .phase_body .phase_main .topic p {
+  margin-top: 20px;
+  color: #10030f;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+#phase2 .phase_body .phase_main .topic a {
+  text-decoration: none;
+  color: #f903e9;
+  background: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  text-transform: capitalize;
+  border-radius: 5px;
+  border: 1px solid #000;
+  padding: 5px;
+}
+
+/*============================================
+        phase 2 css part ends here
 ==============================================*//*# sourceMappingURL=style.css.map */
